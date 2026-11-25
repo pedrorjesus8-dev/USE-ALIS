@@ -13,7 +13,7 @@
 <link rel="icon" type="image/png" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Figtree:wght@400;500;600&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap" rel="stylesheet">
 <style>
 :root{
   --espresso:#4c2e01; --cocoa:#4c2e01; --mocha:#7d5a2b;
@@ -39,7 +39,7 @@ a{color:inherit}
 .bar nav{display:flex;gap:.5rem}
 .bar nav a,.bar nav button{font:inherit;font-weight:500;color:inherit;background:transparent;cursor:pointer;text-decoration:none;padding:.6rem 1rem;border:1px solid rgba(230,228,225,.4);border-radius:999px;transition:background .2s,color .2s}
 .bar nav a:hover,.bar nav button:hover{background:var(--beige);color:var(--espresso)}
-.brandText{font:500 1.5rem/1 var(--serif)}
+.brandText{font:700 1.5rem/1 "Bricolage Grotesque",var(--sans);letter-spacing:-.03em}
 
 .cta{display:inline-flex;align-items:center;gap:.6rem;margin-top:1.5rem;padding:.9rem 1.6rem;background:var(--beige);color:var(--espresso);border-radius:999px;font-weight:600;text-decoration:none;transition:transform .2s,background .2s}
 .cta:hover{background:#fff;transform:translateY(-2px)}
@@ -47,7 +47,7 @@ a{color:inherit}
 
 /* Catálogo */
 .catalog{padding-block:clamp(3rem,7vw,5.5rem)}
-.catalog h2{margin:0 0 .5rem;font:500 clamp(2rem,5vw,3rem)/1.1 var(--serif)}
+.catalog h2{margin:0 0 .5rem;font:700 clamp(2rem,5vw,3rem)/1.05 "Bricolage Grotesque",var(--sans);letter-spacing:-.035em}
 .lead{margin:0 0 2rem;color:var(--mocha);max-width:52ch}
 .tools{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;margin-bottom:2rem}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem}
@@ -64,7 +64,7 @@ a{color:inherit}
 .photo svg{width:34%;color:var(--mocha);opacity:.55}
 .info{padding:1rem 1.25rem 1.4rem;display:flex;flex-direction:column;gap:.25rem;flex:1}
 .cat{font-size:.85rem;color:var(--mocha)}
-.name{margin:0;font:500 1.3rem/1.2 var(--serif)}
+.name{margin:0;font:600 1.25rem/1.15 "Bricolage Grotesque",var(--sans);letter-spacing:-.02em}
 .price{font-weight:600;color:var(--cocoa)}
 .ask{margin-top:auto;padding-top:.9rem;display:inline-flex;align-items:center;gap:.5rem;font-weight:600;color:var(--wa)}
 .ask svg{width:1.25rem;height:1.25rem}
@@ -77,8 +77,8 @@ body.locked{overflow:hidden}
 .intro.leaving{transform:translateY(-100%)}
 .introIn{max-width:980px;display:grid;gap:1.4rem;justify-items:start;animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
 .introLogo{height:clamp(110px,22vw,180px);width:auto}
-.introTag{margin:0;font:italic 500 1.25rem/1 var(--serif);color:var(--gold)}
-.aboutText{margin:0;font:500 clamp(2rem,6.5vw,4.75rem)/1.08 var(--serif);letter-spacing:-.01em;color:var(--beige);
+.introTag{margin:0;font:600 .95rem/1 "Bricolage Grotesque",var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.aboutText{margin:0;font:700 clamp(1.9rem,5.6vw,4.1rem)/1.04 "Bricolage Grotesque",var(--sans);letter-spacing:-.035em;color:var(--beige);
   background:radial-gradient(circle 300px at var(--mx,50%) var(--my,50%),var(--beige),rgba(230,228,225,.2));
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 @media(hover:none){.aboutText{background:none;-webkit-text-fill-color:currentColor}}
@@ -102,7 +102,7 @@ button.cta{border:0;font:inherit;font-weight:600;cursor:pointer;margin-top:.5rem
 footer{background:var(--espresso);color:var(--beige);padding-block:3rem}
 footer .wrap{display:grid;gap:2.5rem 2rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));align-items:start}
 footer p{margin:0;color:rgba(230,228,225,.75)}
-footer h2{margin:0 0 .75rem;font:500 1.15rem/1.2 var(--serif);color:var(--gold)}
+footer h2{margin:0 0 .75rem;font:600 1.1rem/1.2 "Bricolage Grotesque",var(--sans);letter-spacing:-.01em;color:var(--gold)}
 footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
 footer a:not(.cta){text-decoration:none;color:rgba(230,228,225,.85)}
 footer a:not(.cta):hover{color:#fff;text-decoration:underline}
